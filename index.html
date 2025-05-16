@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>jogo da velha (caio )</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="cadastro">
+    <h2>jogo da velha (caio )</h2>
+    <input type="text" id="player1" placeholder="Nome do jogador X" />
+    <input type="text" id="player2" placeholder="Nome do jogador O" />
+    <br />
+    <button onclick="startGame()">Iniciar Jogo</button>
+  </div>
+
+  <div id="jogo">
+    <div>
+      Jogador X: <span id="nome1"></span> - Pontos: <span id="pontos1">0</span><br />
+      Jogador O: <span id="nome2"></span> - Pontos: <span id="pontos2">0</span>
+    </div>
+
+    <div id="tabuleiro"></div>
+
+    <div id="placar">
+      <button onclick="revanche()">Revanche</button>
+      <button onclick="novoJogo()">Novo Jogo</button>
+      <button onclick="desistir()">Desistir</button>
+    </div>
+
+    <div id="mensagemFinal" class="hidden">
+      <p id="mensagemTexto"></p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

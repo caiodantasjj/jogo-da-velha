@@ -1,0 +1,28 @@
+body {
+
+    font-family: monospace;
+    
+    }
+    
+    ul {
+    
+    font-family: helvética;
+    
+    }
+    li {
+
+        list-style: circle;
+        
+        }
+        
+        .list {
+        
+        list-style: square;
+        
+        }
+        
+        #msg {
+        
+        font-family: monospace;
+        
+        }
